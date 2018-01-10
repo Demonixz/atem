@@ -533,7 +533,7 @@ bool Metastock::parseMasters()
 		/* XMaster is optional */
 		for( int i = 1; i<=cntX; i++ ) {
 			SELECT_MR( xmf );
-			assert( mr->record_number == 0 );
+			//assert( mr->record_number == 0 );
 			xmf.getRecord( mr, i );
 		}
 	}
